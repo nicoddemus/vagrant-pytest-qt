@@ -4,32 +4,32 @@ Experiment using vagrant to bring up a development VM ready to work on pytest-qt
 
 ## Usage ##
 
-* Install [VirtualBox](https://www.virtualbox.org/) and [vagrant](www.vagrantup.com), following platform specific instructions.
+1. Install [VirtualBox](https://www.virtualbox.org/) and [vagrant](www.vagrantup.com), following platform specific instructions.
 
-* Start up the virtual machine and wait up a little:
+2. Start up the virtual machine and wait up a little:
 
-```
-  vagrant up
-```  
+  ```
+    vagrant up
+  ```  
 
-* ssh into the machine:
+3. ssh into the machine:
 
-```
-  vssh.bat
-```  
+  ```
+    vssh.bat
+  ```  
 
-* startup X
+4. startup X
 
-```
-  startx
-```
+  ```
+    startx
+  ```
 
-* In another ssh session, run the tests:
+5. In another ssh session, run the tests:
 
-```
-  cd pytest-qt
-  DISPLAY=99.0 py.test
-```
+  ```
+    cd pytest-qt
+    DISPLAY=99.0 py.test
+  ```
 
 
 
